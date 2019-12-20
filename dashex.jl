@@ -1,5 +1,3 @@
-# Dashboards implementation of example from Dash Tutorial (section Interactive Visualizations) (https://dash.plot.ly/interactive-graphing)
-
 import HTTP, CSV, JSON
 using Dashboards, PlotlyJS, DataFrames
 
@@ -151,4 +149,3 @@ end
 handler = make_handler(app, debug = true)
 println("started at localhost:$(parse(Int, ARGS[1]))")
 HTTP.serve(handler,"0.0.0.0",parse(Int,ARGS[1]))
-println("test to see whether it hits this line")
