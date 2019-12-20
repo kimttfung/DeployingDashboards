@@ -15,12 +15,23 @@ Once you are in Julia, you will need to create a new project with `Project.toml`
 using Pkg; Pkg.activate(".")
 ]add <replace with package name>       #Do this as many times as you need to, eg.  ]add Dashboards
 ```
-Once you are done, you may close your cmd/terminal window and open a new one.
-Now, you can open up a new window on your cmd or Terminal and log into your Heroku CLI account by typing
+Once you are done, you may close your cmd/terminal window.
+
+Next, we will be creating a `Procfile`, which is a blank file that Heroku uses to instruct the deployment of your files.
+You will need to create the file called Procfile and cooy and paste the following line of code into the file.
+```
+web: julia --project app.jl $PORT
+```
+You will need to replace `app.jl` with the filename of the starting file of your application.
+Then, you may save the file into your directory where your app will be.
+
+Now, your directory should have your Dashboard files, `Project.toml`, `Manifest.toml`, as well as `Procfile`.
+
+After that is done, you can open up a new window on your cmd or Terminal and log into your Heroku CLI account by typing
 ```
 heroku login
 ```
-It should open up a browser window for you to enter your credentials. You will find yourself logged in after you are done logging in and closing the browser window. Once again, enter your app directory, in this case
+It should open up a browser window for you to enter your credentials. You will find yourself logged in after you are done logging in and closing the browser window.
 
 ```
 cd juliadash
