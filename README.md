@@ -1,4 +1,4 @@
-# Deploying a sample Dashboards.jl project on Heroku - kfung
+# Deploying a Dashboards.jl project on Heroku (kfung)
 
 A sample project to deploy julia on heroku using [julia-buildpack](https://github.com/Optomatica/heroku-buildpack-julia)
 
