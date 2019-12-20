@@ -15,9 +15,7 @@ Once you are in Julia, you will need to create a new project with `Project.toml`
 using Pkg; Pkg.activate(".")
 Pkg.add("Dashboards")       #Do this as many times as you need to, changing the string (containing the package name) every time.
 Pkg.add("HTTP")
-.
-.
-.
+⋮
 ```
 Once you are done, you may close your cmd/terminal window.
 
