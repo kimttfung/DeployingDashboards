@@ -2,7 +2,10 @@
 
 Before we get started, you will need the following: your Dashboard files, a Heroku account, and [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
 
-Once everything is sorted, you can open up your cmd or Terminal and log into your Heroku CLI account by doing `heroku login`
+Once everything is sorted, you can open up your cmd or Terminal and log into your Heroku CLI account by doing
+```
+heroku login
+```
 
 A sample project to deploy julia on heroku using [julia-buildpack](https://github.com/Optomatica/heroku-buildpack-julia)
 
