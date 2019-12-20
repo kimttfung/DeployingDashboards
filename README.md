@@ -1,8 +1,10 @@
 # Deploying a Dashboards.jl project on Heroku (kfung)
 
-A sample project to deploy julia on heroku using [julia-buildpack](https://github.com/Optomatica/heroku-buildpack-julia)
+Before we get started, you will need the following: your Dashboard files, a Heroku account, and [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
 
-[JuliCon 2019 Presentation Video](https://www.youtube.com/watch?v=p--assaV64g)
+Once everything is sorted, you can open up your cmd or Terminal and log into your Heroku CLI account by doing `heroku login`
+
+A sample project to deploy julia on heroku using [julia-buildpack](https://github.com/Optomatica/heroku-buildpack-julia)
 
 #### Build and Deploy steps
 ```
