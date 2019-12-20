@@ -13,7 +13,7 @@ Once you are in Julia, you will need to create a new project with `Project.toml`
 
 ```
 using Pkg; Pkg.activate(".")
-]add <replace with package name>       #Do this as many times as you need to, eg.  ]add Dashboards
+Pkg.add("Dashboards")       #Do this as many times as you need to, changing the string (containing the package name) every time.
 ```
 Once you are done, you may close your cmd/terminal window.
 
