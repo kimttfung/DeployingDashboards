@@ -1,4 +1,4 @@
-# Deploying a Dashboards.jl project on Heroku (kfung)
+# Deploying a Dashboards.jl project on Heroku
 
 Before we get started, you will need the following: your Dashboard files, a Heroku account, an installation of Julia, as well as the [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
 
