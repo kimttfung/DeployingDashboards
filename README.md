@@ -2,7 +2,7 @@
 
 Before we get started, you will need the following: your Dashboard files, a Heroku account, an installation of Julia, as well as the [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
 
-Now, you can create a new folder to store all of the files required to deploy your application. Here, I will be using the folder "juliadash" as an example directory. After that, type `julia` to enter Julia.
+Now, you can create a new folder to store all of the files required to deploy your application. Here, I will be using the folder `juliadash` as an example directory. After that, type `julia` to enter Julia.
 
 ```
 mkdir juliadash
