@@ -69,5 +69,4 @@ Hope this helped you in learning more about using Heroku to deploy apps. This me
 
 If you would like to have a look at the final product of what I did, click on [https://juliadash.herokuapp.com/](https://juliadash.herokuapp.com/) to find out!
 
-**Reference**
-The `dashex.jl` file in this repository comes from [here](https://github.com/waralex/DashboardsExamples/blob/master/dash_tutorial/5_interactive_graphing_2.jl)!
+**Reference**: the `dashex.jl` file in this repository comes from [here](https://github.com/waralex/DashboardsExamples/blob/master/dash_tutorial/5_interactive_graphing_2.jl)!
