@@ -1,8 +1,6 @@
 # Deploying a Dashboards.jl project on Heroku
 
-Before we get started, you will need the following: your Dashboard files, a Heroku account, an installation of Julia, as well as the [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
-
-For this example, I will be using a Dashboards files from [here](https://github.com/waralex/DashboardsExamples/blob/master/dash_tutorial/5_interactive_graphing_2.jl).
+Before we get started, you will need the following: your Dashboard files, a Heroku account, an installation of Julia, as well as the [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. For this example, I will be using a Dashboards files from [here](https://github.com/waralex/DashboardsExamples/blob/master/dash_tutorial/5_interactive_graphing_2.jl).
 
 Now, you can create a new folder to store all of the files required to deploy your application. Here, I will be using the folder `juliadash` as an example directory. After that, type `julia` to enter Julia.
 
