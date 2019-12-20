@@ -1,11 +1,22 @@
 # Deploying a Dashboards.jl project on Heroku (kfung)
 
-Before we get started, you will need the following: your Dashboard files, a Heroku account, and [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
+Before we get started, you will need the following: your Dashboard files, a Heroku account, an installation of Julia, as well as the [Heroku Command Line Interface](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (CLI) installed. Click on the link for more instructions.
 
-Once everything is sorted, you can open up your cmd or Terminal and log into your Heroku CLI account by doing
+Now, you can create a new folder to store all of the files required to deploy your application. Here, I will be using the folder "juliadash" as an example directory.
+
+```
+mkdir juliadash
+cd juliadash
+```
+
+Once everything is sorted, you can open up your cmd or Terminal and log into your Heroku CLI account by typing
 ```
 heroku login
 ```
+It should open up a browser window for you to enter your credentials. You will find yourself logged in after you are done logging in and closing the browser window.
+
+
+
 
 A sample project to deploy julia on heroku using [julia-buildpack](https://github.com/Optomatica/heroku-buildpack-julia)
 
